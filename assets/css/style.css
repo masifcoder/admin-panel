@@ -1,0 +1,33 @@
+:root {
+    --dark-color: #212b36;
+}
+
+.row > div {
+    border: 1px solid red;
+    height: 100vh;
+}
+a, span {
+    display: inline-block;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.dark_bg {
+    background-color: var(--dark-color);
+}
+
+.sidebar {
+    
+}
+
+.menu ul li a {
+    color: #919eab;
+    transition: all .4s ease;
+    font-size: 15px;
+}
+.menu ul li a:hover {
+    color: #f4f6f8;
+}
+
