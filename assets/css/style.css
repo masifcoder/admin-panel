@@ -1,6 +1,8 @@
 :root {
     --dark-color: #212b36;
 }
+
+
 body {
     background-color: #f1f5f9;
 }
@@ -81,4 +83,23 @@ ul {
 }
 .box_shadow {
     box-shadow: 0 2px 4px rgba(0, 0, 20, .08), 0 1px 2px rgba(0, 0, 20, .08);
+}
+.tbl-th > th {
+    background-color: #f1f5f9;
+    font-size: 15px;
+    color: rgb(99, 115, 129);
+    font-weight: 500;
+}
+.avatar-group > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: inline-block;
+    border: 2px solid white;
+    margin-left: -20px;
+    position: relative;
+    z-index: 3;
+}
+.avatar-group > img:hover {
+    z-index: 10;
 }
